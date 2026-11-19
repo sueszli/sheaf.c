@@ -21,16 +21,13 @@ task dispatching made simple
     ⢻⡆   ⢸⡏     ⣾⡇  ⢀⣀⠘⠛⠉     
     ⠘⠓   ⠘⠃     ⠛⠁  ⠘⠋        
 
-# features
 
 a minimal, zero-dependency, proof-of-concept library for task dispatching in c:
 
 - pthreads for compute-heavy tasks, inspired by goroutines
 - cooperative async for io-heavy tasks, inspired by the javascript event loop
 
-# usage
 
-```
 $ tail -n +10 src/demo_go.c
 
     static void task(u32 id) {
@@ -86,4 +83,3 @@ $ make demo-async
     pong
     ping
     pong
-```
